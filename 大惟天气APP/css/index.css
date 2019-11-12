@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+.bg{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: url("../img/909879_p0.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+.box,body,html,.weather{
+    height: 100%;
+}
+
+
+
+.system-nav{
+   
+    height: .24rem;
+}
+.top{
+    
+    
+    padding: 0 .15rem;
+    margin-top: .05rem;
+    margin-bottom: .2rem;
+  
+}
+
+    
+
+.top-title{
+    background: url("../img/location.png" )no-repeat 0px 0px;
+    background-size: .26rem .26rem;
+    width: 1.22rem;
+    font-size: .22rem;
+    text-indent: .34rem;
+    float: left;
+}
+.search{
+    width: calc(100% - 1.22rem - .1rem);
+    margin-left: .1rem;
+    position: relative;
+    
+}
+.search>input{
+    display: block;
+    height: .26rem;
+    width: calc(100% - .26rem - .1rem);
+    background:rgba(255, 255, 2555, .5);
+    border: none;
+    border-radius: .15rem;
+    outline: none;
+    text-indent: .22rem;
+    font-size: .16rem;
+}
+.search-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: .26rem;
+    height: .26rem;
+    background: url("../img/search-icon.png") no-repeat 0px 0px;
+    background-size: .26rem .26rem ;
+}
+.line{
+    display: inline-block;
+    
+    width: 100%;
+    border: 1px solid white;
+}
+.middle{
+    padding: 0 .15rem;
+  
+   
+ 
+    
+}
+.now-weather-box{
+    margin-bottom: .2rem;
+    border-radius: .15rem;
+    background: rgb(255, 255, 255,.5);
+}
+.wind{
+    font-size: .2rem;
+    margin-left: .05rem;
+}
+.now-weather{
+    position: relative;
+}
+.sj{
+    display: inline-block;
+    width: 1.2rem;
+    position: relative;
+}
+.number{
+    font-size: .7rem;
+}
+.du{
+    font-size: .4rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.weak1{
+    margin: 0 .1rem;
+    font-size: .16rem;
+}
+.weak2{
+    font-size: .16rem;
+}
+.wenzi{
+    font-size: .16rem;
+}
+.tf-weather-box{
+    margin-left: .05rem;
+    font-size: .22rem;
+}
+
+.tf{
+    padding: .15rem 0;
+    overflow-x: auto;
+}
+.tf-weather{
+    width: 19rem;
+    border-radius: .15rem;
+    background: rgb(255, 255, 255,.5);
+}
+.tf-weather>li{
+    padding:0 .1rem;
+    float: left;
+    margin-right: .1rem;
+    font-size: .16rem;
+    width: .46rem;
+    text-align: center;
+}
+.bottom{
+    padding: 0px .15rem;
+    overflow-y: auto;
+    height: calc(100% - .99rem - 3.4rem);
+ 
+    
+}
+.night-day-title{
+    margin-bottom: .1rem;
+    
+}
+.night-day{
+    font-size:.22rem ;
+}
+.night-day-list-box{
+    border-radius: .15rem;
+    background: rgb(255, 255, 255,.5);
+   
+}
+.night-day-list>li{
+    border-bottom: 1px solid black;
+    padding: .15rem 0;
+}
+.night-day-list>li>span{
+    width: 25%;
+    float: left;
+    font-size: .16rem;
+    text-align: center;
+}
+.weather-icon{
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    background-size: .3rem .3rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.now-weather-icon{
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background-image: url(../img/qing.png) ;
+    background-size: .4rem .4rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
